@@ -1,0 +1,15 @@
+{
+    "name": "ciarand/utils",
+    "description": "A set of general-purpose PHP utility classes and functions",
+    "license": "BSD 2-clause",
+    "authors": [
+        {
+            "name": "Ciaran Downey",
+            "email": "code@ciarand.me"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "sami/sami": "~2.0.0"
+    }
+}
