@@ -1,0 +1,65 @@
+Utils
+=====
+Ciaran Downey <code@ciarand.me>
+
+[quote]
+A set of general-purpose PHP utility classes and functions
+
+Current status
+--------------
+Extremely experimental. I don't recommend you use it in your own work.
+
+"Inspired by"
+-------------
+Many of these functions, classes, and other ideas were stolen shamelessly from
+the following libraries, packages, and languages. The reason they were forked
+instead of just being pulled in via Composer is listed next to each name:
+
+nikic/iter
+~~~~~~~~~~
+Unfortunately link:https://github.com/nikic/iter[this awesome package] is only
+available for PHP 5.5+ because most of the library relies on generators.
+
+schmittjoh/php-option
+~~~~~~~~~~~~~~~~~~~~~
+This is a fantastic, fantastic package that provides the `Option` class for
+PHP. It marks each of the subclasses (`Some`, `None`) as `final` unfortunately,
+which makes it difficult to extend. I've chosen to go with a `Failure`
+/ `Success` model here instead.
+
+API
+---
+Check the `docs` folder.
+
+Contributing
+------------
+- Run the tests before committing, run the tests after committing
+
+- Run the tests before starting work
+
+- Document every function, every method, and every class
+
+- Document any potential exceptions being thrown
+
+- Don't use a vanilla `Exception` class - use the most appropriate
+  link:php.net/manual/en/spl.exceptions.php/[SPL Exception] or a custom
+  exception if you think it's important
+
+- Keep everything organized by PSR-4 standards
+
+- Use PSR-2 coding conventions
+
+- 4 spaces, not tabs. UTF-8, `\n` for newlines, no trailing spaces (check the
+  .editorconfig file)
+
+- PHPMD should pass on everything
+
+- Don't put anything in the global namespace
+
+- Pull requests should come from a feature branch
+
+- Give credit in the "Inspired by" section in this document
+
+License
+-------
+BSD (2-clause), see the `LICENSE` file if you're into that sort of thing.
