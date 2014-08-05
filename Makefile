@@ -1,5 +1,5 @@
 test:
-	echo 'no tests yet'
+	./bin/pho
 
 docs: clean
 	./vendor/bin/phpdoc -d src/ -t docs/
