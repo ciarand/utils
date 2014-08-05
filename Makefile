@@ -2,7 +2,7 @@ test:
 	echo 'no tests yet'
 
 doc:
-	./vendor/bin/sami.php render doc_conf.php -v
+	./vendor/bin/phpdoc -d src/ -t docs/master
 
 clean:
 	rm -rf docs/cache/

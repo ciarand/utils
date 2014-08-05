@@ -1,9 +1,18 @@
-<?php namespace RestlessCo\Utils;
+<?php
+
+/**
+ * A set of utility functions that provide (mostly functional) additions to the
+ * PHP toolkit
+ */
+
+namespace RestlessCo\Utils;
 
 use InvalidArgumentException;
 
 /**
- * The "…" method functions similarly to Perl's "..." operator (the "yada,
+ * Dies if ever called, a stub for unimplemented code.
+ *
+ * The "…" method functions similarly to Perl6's "..." operator (the "yada,
  * yada, yada" operator) and dies if it's ever called. It's used as a stub for
  * unwritten code.
  *
@@ -18,7 +27,7 @@ function …()
  * Returns a callable which returns an item from an array corresponding to the
  * given index
  *
- * @param mixed index
+ * @param mixed $index
  *
  * @return callable
  */
@@ -86,7 +95,7 @@ function property($propertyName) {
  * Returns a callable which returns the result of a method call corresponding
  * to the provided string and args
  *
- * @param string $propertyName
+ * @param string $methodName
  * @param array $args
  *
  * @return callable
