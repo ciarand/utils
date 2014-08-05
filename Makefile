@@ -2,7 +2,7 @@ test:
 	echo 'no tests yet'
 
 docs:
-	./vendor/bin/phpdoc -d src/ -t docs/master
+	./vendor/bin/phpdoc -d src/ -t docs/
 
 clean:
 	rm -rf docs/
