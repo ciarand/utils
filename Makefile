@@ -1,7 +1,7 @@
 test:
 	echo 'no tests yet'
 
-docs:
+docs: clean
 	./vendor/bin/phpdoc -d src/ -t docs/
 
 clean:
