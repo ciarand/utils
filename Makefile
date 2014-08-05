@@ -2,7 +2,7 @@ test:
 	./bin/pho
 
 docs: clean
-	./vendor/bin/phpdoc -d src/ -t docs/
+	./bin/phpdoc -d src/ -t docs/
 
 clean:
 	rm -rf docs/
