@@ -8,8 +8,17 @@
             "email": "code@ciarand.me"
         }
     ],
+    "config": {
+        "bin-dir": "bin"
+    },
     "require": {},
     "require-dev": {
-        "phpdocumentor/phpdocumentor": "2.*"
+        "phpdocumentor/phpdocumentor": "2.*",
+        "danielstjules/pho": "dev-master"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
     }
 }
