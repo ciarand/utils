@@ -5,7 +5,7 @@
  * PHP toolkit
  */
 
-namespace RestlessCo\Utils;
+namespace Ciarand\Utils;
 
 use InvalidArgumentException;
 

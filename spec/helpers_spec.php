@@ -1,6 +1,6 @@
 <?php require __DIR__ . "/../vendor/autoload.php";
 
-use RestlessCo\Utils as fn;
+use Ciarand\Utils as fn;
 
 describe("the index function", function () {
     it("should return a callable", function () {
