@@ -1,8 +1,8 @@
 test:
-	./bin/pho
+	./bin/phpunit spec
 
 docs: clean
-	./bin/phpdoc -d src/ -t docs/
+	./bin/phpdoc -d src/ -t docs/ --template clean
 
 clean:
 	rm -rf docs/
