@@ -5,6 +5,9 @@ Ciaran Downey <code@ciarand.me>
 [quote]
 A set of general-purpose PHP utility classes and functions
 
+image:http://img.shields.io/travis/ciarand/utils/master.svg?style=flat[
+    "Build Status", link="https://travis-ci.org/ciarand/utils.svg"]
+
 Current status
 --------------
 Extremely experimental. I don't recommend you use it in your own work.
